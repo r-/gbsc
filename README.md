@@ -56,26 +56,20 @@ The system begins by accepting balls in a storage container, which are then tran
 
 ## Folder Structure
 
-```plaintext
-GBSC/
-?
-??? /explorer_hat/             # Source code for the project
-?   ??? pressure_sensor.py     # Code for Explorer HAT
-?   ??? utils/                 # Helper functions and utilities
-??? /build_hat/                # Source code for the project
-?   ??? color_sensor.py        # Code for Explorer HAT
-?   ??? force_sensor.py        # Code for Explorer HAT
-?   ??? distance_sensor.py        # Code for Explorer HAT
-?   ??? utils/                 # Helper functions and utilities
-?
-??? /docs/                       # Documentation and design files
-?
-??? /assets/                     # Images, diagrams, or media
-?
-??? requirements.txt             # Python dependencies
-??? README.md                    # Project overview (this file)
-??? LICENSE                      # License for the project
-```
+- GBSC/
+  - explorer_hat/             # Source code for the Explorer HAT
+    - pressure_sensor.py       # Code for pressure sensor
+    - utils/                   # Helper functions and utilities
+  - build_hat/                # Source code for the Build HAT
+    - color_sensor.py          # Code for color sensor
+    - force_sensor.py          # Code for force sensor
+    - distance_sensor.py       # Code for distance sensor
+    - utils/                   # Helper functions and utilities
+  - docs/                     # Documentation and design files
+  - assets/                   # Images, diagrams, or media
+  - requirements.txt           # Python dependencies
+  - README.md                  # Project overview (this file)
+  - LICENSE                    # License for the project
 
 ## Usage
 
